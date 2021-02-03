@@ -1,5 +1,5 @@
 body {
-  color: white;
+  color: #FFF;
 }
 
 .navbar {
@@ -27,6 +27,18 @@ header {
   height: 200px;
   width: 200px;
   margin: 50px auto;
+}
+
+.portfolio {
+  color: #2c3e50;
+  margin: auto;
+}
+
+.main_element {
+  background-color: #dc3545;
+  height: 300px;
+  width: 300px;
+  margin: 40px auto;
 }
 
 /*
