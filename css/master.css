@@ -34,10 +34,10 @@ body {
 
 #button__menu {
   padding: 10px 15px;
-  font-size: 11px;
+  font-size: 12px;
   text-transform: uppercase;
   font-weight: bold;
-  right: 0;
+  border: none;
 }
 
 header {
@@ -194,6 +194,16 @@ h4 {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+#about .btn:hover {
+  background-color: #FFF;
+  transition: background-color 0.1s ease-in-out;
+}
+
+.btn-success:hover {
+  background-color: #159a80;
+  transition: background-color 0.1s ease-in-out;
 }
 
 #copyright {
