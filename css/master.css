@@ -12,6 +12,7 @@ body {
   font-weight: 700;
   position: fixed;
   z-index: 5;
+  top: 0;
 }
 
 #hero__text {
@@ -44,6 +45,7 @@ body {
 }
 
 header {
+  margin-top: 80px;
   background-color: #1abc9c;
   padding: 100px 0 90px 0;
 }
@@ -84,6 +86,7 @@ section {
 }
 
 #portfolio {
+  padding-top: 85px;
   color: #2c3e50;
   margin: auto;
   padding-bottom: 80px;
@@ -129,8 +132,9 @@ section {
 }
 
 #about {
+  padding-top: 85px;
   background-color: #1abc9c;
-  padding-bottom: 100px;
+  padding-bottom: 70px;
 }
 
 #about p {
@@ -150,6 +154,7 @@ section {
 }
 
 #contact {
+  padding-top: 85px;
   color: #2c3e50;
 }
 
