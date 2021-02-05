@@ -196,7 +196,8 @@ h4 {
   transform: translate(-50%, -50%);
 }
 
-#about .btn:hover {
+#about .btn:hover, .socials:hover {
+  color: #3a546d;
   background-color: #FFF;
   transition: background-color 0.1s ease-in-out;
 }
