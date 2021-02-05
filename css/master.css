@@ -18,6 +18,7 @@ body {
   font-size: 1.3em;
   font-weight: 700;
   vertical-align: middle;
+  white-space: nowrap;
 }
 
 .navibar a {
@@ -38,6 +39,8 @@ body {
   text-transform: uppercase;
   font-weight: bold;
   border: none;
+  float: left;
+  line-height: inherit;
 }
 
 header {
@@ -134,9 +137,12 @@ section {
   font-size: 18px;
 }
 
+#about .btn {
+  margin-top: 30px;
+}
+
 .btn {
   padding: 15px 25px;
-  margin-top: 30px;
   background-color: #1abc9c;
   border: 2px solid #FFF;
   font-size: 20px;
@@ -189,7 +195,6 @@ h4 {
 }
 
 .socials i {
-  vertical-align: middle;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -210,6 +215,14 @@ h4 {
 #copyright {
   background-color: #2c3e50;
   padding: 20px 0;
+}
+
+
+@media (max-width: 768px) {
+  .navibar {
+    font-size: 1em;
+    transition: font-size 0.3s;
+  }
 }
 
 @media (min-width: 992px) {
